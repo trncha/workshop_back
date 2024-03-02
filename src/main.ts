@@ -10,7 +10,7 @@ async function bootstrap() {
 
 	const config = new DocumentBuilder()
 		.setTitle('Workshop API Document')
-		.setDescription('My Workshop API description')
+		.setDescription('My Workshop API description test')
 		.setVersion('1.0')
 		.build();
 	const document = SwaggerModule.createDocument(app, config);
